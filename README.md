@@ -2,6 +2,9 @@
   <img width="200" height="125" src="https://www.woosignal.com/images/woosignal_logo_stripe_blue.png" alt="WooSignal logo">
 </p>
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+
+
 # WooCommerce App: Label StoreMax
 
 ### Label StoreMax - v5.1.0
