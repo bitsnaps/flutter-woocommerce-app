@@ -10,9 +10,11 @@ tasks:
     source ~/.bashrc
   init: >
     cd LabelStoreMax &&
+    flutter clean &&
+    flutter channel stable &&
     flutter upgrade &&
-    flutter update-packages --force-upgrade &&
-    flutter doctor &&
+    flutter doctor -v &&
+    flutter pub get &&
     flutter run -d web-server --no-resident # prebuilds the app
   command: >
     flutter run -d web-server --web-port=8080 --web-hostname=0.0.0.0
